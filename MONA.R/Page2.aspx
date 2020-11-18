@@ -13,6 +13,7 @@
             <asp:CheckBox ID="CheckBox1" runat="server" />
             <asp:CheckBox ID="CheckBox2" runat="server" />
         </div>
+        
     </form>
 </body>
 </html>

@@ -11,7 +11,7 @@ namespace MONA.R
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -20,6 +20,11 @@ namespace MONA.R
             TextBox2.Text =TextBox1.Text;
             TextBox1.Text=" ";
             
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Page2.aspx?name=" + Button2.Text);
         }
     }
 }

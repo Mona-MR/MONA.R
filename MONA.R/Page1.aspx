@@ -12,6 +12,10 @@
             <asp:Button ID="Button1" runat="server" Text="Move" OnClick="Button1_Click" />
             <asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <hr>
+        <asp:Button ID="Button2" runat="server" Text="Quary Button" OnClick="Button2_Click" />
+        <asp:Label ID="Label1" runat="server" Text="Quary String"></asp:Label>
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
         </div>
     </form>
 </body>

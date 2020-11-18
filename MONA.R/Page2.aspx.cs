@@ -11,12 +11,18 @@ namespace MONA.R
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string name = Request.QueryString.Get("name");
+            Response.Write("hello" + name);
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
             CheckBox1.Checked=true;
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
